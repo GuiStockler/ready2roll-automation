@@ -1,6 +1,6 @@
-# 🎲 Ready2Reload - Automação de Testes End-to-End (E2E)
+# 🎲 Ready2Roll - Automação de Testes End-to-End (E2E)
 
-Suíte de testes automatizados E2E desenvolvida para validar as funcionalidades principais da aplicação web de RPG/Rolagem de Dados **Ready2Reload**. 
+Suíte de testes automatizados E2E desenvolvida para validar as funcionalidades principais da aplicação web de RPG/Rolagem de Dados **Ready2Roll**. 
 
 O projeto utiliza **Python**, **Selenium WebDriver** e o framework **PyTest**, aplicando o padrão de arquitetura **Page Object Model (POM)** para garantir manutenibilidade, legibilidade e reusabilidade do código.
 
