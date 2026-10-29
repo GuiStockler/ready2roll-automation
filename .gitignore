@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.idea/
+exemplo_teste_selenium.py
+mapa-testes-selenium.md
+requirements.txt
+GEMINI.txt
