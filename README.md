@@ -33,3 +33,42 @@ A suíte cobre os principais fluxos funcionais da aplicação:
  ┣ 📜 page.py             # Classes de mapeamento de elementos (POM) e Ações
  ┣ 📜 main.py             # Arquivo central de testes (PyTest)
  ┗ 📜 README.md           # Documentação do projeto
+
+ ⚙️ Como Executar o Projeto Localmente
+Pré-requisitos
+Python instalado na sua máquina.
+
+Google Chrome instalado.
+
+1. Clonar o repositório
+Bash
+git clone [https://github.com/GuiStockler/ready2roll-automation.git](https://github.com/GuiStockler/ready2roll-automation.git)
+cd ready2roll-automation
+
+2. Criar e ativar o ambiente virtual (venv)
+Bash
+python -m venv .venv
+
+No Windows (PowerShell/CMD):
+
+Bash
+.venv\Scripts\activate
+
+3. Instalar as dependências
+Bash
+pip install selenium pytest
+
+4. Executar os testes
+Para rodar toda a suíte de 20 testes com o relatório no terminal:
+
+Bash
+pytest -v
+
+(Opcional) Para rodar uma classe específica:
+
+Bash
+pytest main.py::TestFuncionalidadesDaMesa -v
+
+Feito com 💜 por Gui Stockler
+
+
